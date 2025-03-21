@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+/* Login Box */
+.container {
+    opacity: 0;
+}
+
+.form-box {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    width: 300px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Input Fields */
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    outline: none;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+label {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: white;
+    transition: 0.3s;
+    pointer-events: none;
+}
+
+input:focus + label,
+input:valid + label {
+    top: -10px;
+    left: 5px;
+    font-size: 12px;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #ff5733;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background: #ff2e00;
+}
+
+/* Toggle Form */
+#toggle-form {
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#toggle-form span {
+    color: #ffcc00;
+    font-weight: bold;
+}
