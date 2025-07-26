@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LP Nodes - High Performance VPS & Minecraft Servers</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #0c0a18;
+            background-image: radial-gradient(circle at top right, rgba(121, 68, 255, 0.2), transparent 40%),
+                              radial-gradient(circle at bottom left, rgba(68, 155, 255, 0.2), transparent 40%);
+        }
+        .text-glow {
+            text-shadow: 0 0 8px rgba(192, 132, 252, 0.4), 0 0 20px rgba(192, 132, 252, 0.4);
+        }
+        .card-glow {
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0 0 15px rgba(147, 51, 234, 0);
+        }
+        .card-glow:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 30px rgba(147, 51, 234, 0.3);
+        }
+    </style>
+</head>
+<body class="text-gray-200">
+
+    <header class="fixed top-0 left-0 right-0 z-50 bg-black/30 backdrop-blur-lg border-b border-purple-500/20">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-white">
+                <a href="#">LP <span class="text-purple-400">NODES</span></a>
+            </h1>
+            <nav class="space-x-6">
+                <a href="#plans" class="text-gray-300 hover:text-white transition-colors duration-300">Plans</a>
+                <a href="#reviews" class="text-gray-300 hover:text-white transition-colors duration-300">Reviews</a>
+                <a href="#rules" class="text-gray-300 hover:text-white transition-colors duration-300">Rules</a>
+                <a href="#billing" class="text-gray-300 hover:text-white transition-colors duration-300">Billing</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="home" class="min-h-screen flex items-center justify-center text-center overflow-hidden">
+        <div class="container mx-auto px-6 z-10">
+            <h2 class="text-5xl md:text-7xl font-bold text-white leading-tight mb-4 text-glow">
+                High Performance Servers
+            </h2>
+            <p class="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mb-8">
+                Powering your projects with top-tier VPS and Minecraft servers. Get started by joining our community on Discord.
+            </p>
+            <a href="https://discord.gg/C5HRmBebEX" target="_blank" rel="noopener noreferrer"
+               class="inline-block bg-purple-600 text-white font-semibold px-8 py-3 rounded-lg shadow-lg hover:bg-purple-700 transition-all duration-300 transform hover:scale-105">
+                Join Discord to Buy
+            </a>
+        </div>
+    </main>
+
+    <section id="plans" class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-white">Our Plans</h2>
+                <p class="text-gray-400 mt-2">All plans are paid with Discord Invites, Server Boosts, or OwO Cash.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Invite Plans -->
+                <div class="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl border border-purple-500/20 card-glow">
+                    <div class="mb-6 text-center">
+                        <h3 class="text-2xl font-bold text-purple-400">8 or 15 Discord Invites</h3>
+                    </div>
+                    <ul class="space-y-4 text-gray-300">
+                        <li class="flex items-center"><svg class="w-5 h-5 mr-3 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>64GB RAM</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 mr-3 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>12 vCores</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 mr-3 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>320GB NVMe Disk</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 mr-3 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>SSHX Link (No IPv4 for 8 invites)</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 mr-3 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>1 Shared IPv4 (for 15 invites)</li>
+                    </ul>
+                </div>
+
+                <!-- Boost Plans -->
+                <div class="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl border border-pink-500/20 card-glow">
+                    <div class="mb-6 text-center">
+                        <h3 class="text-2xl font-bold text-pink-400">1 or 2 Server Boosts</h3>
+                    </div>
+                    <ul class="space-y-4 text-gray-300">
+                        <li class="flex items-center"><svg class="w-5 h-5 mr-3 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>64GB RAM</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 mr-3 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>12 vCores</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 mr-3 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>320GB NVMe Disk</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 mr-3 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>SSHX Link (for 1 boost)</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 mr-3 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>1 Shared IPv4 (for 2 boosts)</li>
+                    </ul>
+                </div>
+
+                <!-- OwO Plans -->
+                <div class="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl border border-cyan-500/20 card-glow">
+                    <div class="mb-6 text-center">
+                        <h3 class="text-2xl font-bold text-cyan-400">7M or 10M OwO Cash</h3>
+                    </div>
+                    <ul class="space-y-4 text-gray-300">
+                        <li class="flex items-center"><svg class="w-5 h-5 mr-3 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>64GB RAM</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 mr-3 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>12 vCores</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 mr-3 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>320GB NVMe Disk</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 mr-3 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>SSHX Link (for 7M OwO)</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 mr-3 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>1 Shared IPv4 (for 10M OwO)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="reviews" class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-white">What Our Customers Say</h2>
+                <p class="text-gray-400 mt-2">Join @_somebody_xp, @theshubham66, @travis and many more happy customers.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Review 1 -->
+                <div class="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl border border-gray-700/50 card-glow">
+                    <p class="text-gray-300 mb-6">"LPNodes VPS performance is excellent — powered by a Ryzen 9 processor, ensuring high speed. Payouts are also received quickly, done by mrsdbd and jubayer7786"</p>
+                    <div class="flex items-center">
+                        <div class="font-bold text-lg text-purple-400">@_somebody_xp</div>
+                    </div>
+                </div>
+         
+                <div class="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl border border-gray-700/50 card-glow">
+                    <p class="text-gray-300 mb-6">"Got my VPS up and running in minutes. The support on Discord is super helpful and friendly. LP Nodes is the real deal."</p>
+                    <div class="flex items-center">
+                        <div class="font-bold text-lg text-pink-400">@theshubham66</div>
+                    </div>
+                </div>
+        
+                <div class="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl border border-gray-700/50 card-glow">
+                    <p class="text-gray-300 mb-6">"Unbeatable value. I'm paying with OwO cash and getting enterprise-level specs. Absolutely love it."</p>
+                    <div class="flex items-center">
+                        <div class="font-bold text-lg text-cyan-400">@travis</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="rules" class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-white">Our Rules</h2>
+                <p class="text-gray-400 mt-2">Please read and follow our rules to ensure a fair and safe environment for everyone.</p>
+            </div>
+            <div class="max-w-4xl mx-auto bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl border border-red-500/20 card-glow">
+                <ul class="space-y-4 text-gray-300">
+                    <li class="flex items-start"><span class="text-red-400 mr-3 font-bold text-xl">•</span>No J4J (Join for Join)</li>
+                    <li class="flex items-start"><span class="text-red-400 mr-3 font-bold text-xl">•</span>No 24/7/100% uptime guarantee</li>
+                    <li class="flex items-start"><span class="text-red-400 mr-3 font-bold text-xl">•</span>Server deletion at any time</li>
+                    <li class="flex items-start"><span class="text-red-400 mr-3 font-bold text-xl">•</span><strong class="font-semibold text-white">Do Not Host:</strong>
+                        <ul class="list-disc list-inside mt-2 space-y-2 pl-4 text-gray-400">
+                            <li>Crypto mining, (Bit)Torrent, High resource usage</li>
+                            <li>Illegal activities, Tor, DDoS, Tor exit nodes</li>
+                            <li>VPN/Proxy, Porn, Video hosting/encoding</li>
+                            <li>Botnets, Traffic monetizers, Hacking</li>
+                            <li>Gameservers (except spot VPS)</li>
+                            <li>Game panels (except spot VPS)</li>
+                            <li>Selfbots, Spambots, DM spammers</li>
+                            <li>Discord TOS-breaking bots</li>
+                            <li>High bandwidth usage</li>
+                            <li>Copyrighted/DMCA content</li>
+                            <li>Illegal content (Germany/Netherlands)</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="billing" class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-white">Billing TOS</h2>
+                <p class="text-gray-400 mt-2">Our policy on refunds.</p>
+            </div>
+            <div class="max-w-4xl mx-auto bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl border border-yellow-500/20 card-glow text-center">
+                <h3 class="text-2xl font-bold text-yellow-400 mb-4">No Refunds</h3>
+                <p class="text-gray-300">
+                    All payments made for our services are final. We do not offer refunds under any circumstances. Please be sure of your purchase before proceeding.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class="border-t border-purple-500/20 mt-20">
+        <div class="container mx-auto px-6 py-8 text-center text-gray-400">
+            <p>&copy; 2025 LP Nodes. All rights reserved.</p>
+            <p class="mt-2">Led by @mrsdbd and @Jubayer7786</p>
+            <div class="mt-4">
+                <a href="https://discord.gg/C5HRmBebEX" target="_blank" rel="noopener noreferrer" class="hover:text-purple-400 transition-colors duration-300">
+                    Join our Discord
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
